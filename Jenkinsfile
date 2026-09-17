@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://https://github.com/lavanya-96-12/jenkins-milestone-demo.git'
+                    url: 'https://github.com/lavanya-96-12/jenkins-milestone-demo.git'
             }
         }
 
