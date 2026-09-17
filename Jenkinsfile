@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<student-username>/<repo-name>.git'
+                    url: 'https://https://github.com/lavanya-96-12/jenkins-milestone-demo.git'
             }
         }
 
